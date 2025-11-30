@@ -1,0 +1,38 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>progress.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+  </head>
+  <body>
+    <h1 id="section">10/8:</h1>
+    <h2 id="questions">Questions:</h2>
+    <ol>
+      <li>how to define the people injection algorithm?
+<ol type="a"><li>for each escalator, will inject predefined number of people into this evacuation facility</li><li>people will based on same speed? or faster speed? also define senior and non-senior speed?</li><li>the all other algorithm stays same? any modification or adjustment might need to reconsider?</li><li>any other design aspect need to be considered in this scenario?</li></ol></li>
+    </ol>
+    <h2 id="progress">Progress:</h2>
+    <ol>
+      <li>working on existing simple scenario in parallel with the Penn station scenario. a couple of code refactoring work needs to be done to solve the hardcode issue in current C++ code. such as the layout design, exit predefine, etc. to modify current C++ code with loading Penn station layout is almost impossible since current code all layout elements are hardcoded. you cannot add complex layout with just modifying current code.</li>
+      <li>also trying to make the code generic so all later modification and parameter adjustment can be done easily through configuration</li>
+      <li>fixing some integration issues in pedestrian movement model now.</li>
+      <li>working with Zening together to understand the full code structure and underlying logic.</li>
+      <li>Zening is working with teacher in school to register the ISEF.</li>
+    </ol>
+    <h2 id="next-step">next step:</h2>
+    <ol>
+      <li>start to focus on the paper structure, each chapter's main idea and required work.</li>
+      <li>any potential change of current simulation engine. including layout adjustment, algorithm tweak?</li>
+      <li>continue code work and understand all required algorithm thoroughly</li>
+    </ol>
+  </body>
+</html>
